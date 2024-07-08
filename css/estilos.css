@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#contacto {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.proyecto {
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.proyecto img {
+    height: 217px;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(125, 7, 7) 0%, rgb(215, 11, 11) 100%);
+    color: white;
+}
+
+.proyecto p {
+    font-size: 14px;
+}
+
+.link-rojo {
+    color: #E20000;
+}
+
+.btn-rojo {
+    background-color: #E20000;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 100;
+    color: white;
+}
+
+.btn-rojo:hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+.btn-blanco {
+    color: red;
+}
+
+.footer-proyecto a {
+    color: #E20000;
+}
+
+li {
+    padding: 10px;
+    color: gray;
+}
+
+.active {
+    border: 1px red solid;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #E20000;
+}
+
+P {
+    color: gray;
+}
+
+form .btn {
+    color: #370a6d;
+    background-color: white;
+    border-radius: 20px;
+}
+
+form .btn:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+textarea {
+    height: 150px;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+i {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+footer .fa-whatsapp {
+    color: white;
+    position: fixed;
+    right: 70px;
+    bottom: 0px;
+    font-size: 31px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#stack {
+    background: linear-gradient(90deg, rgb(125, 7, 7) 0%, rgb(215, 11, 11) 100%);
+}
+
+#stack h2 {
+    color: wheat;
+    font-size: 25px;
+}
+
+.tecnologia h3 {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tecnologia i {
+    color: gray;
+    text-align: center;
+    font-size: 60px;
+}
+
+.foto-experiencia {
+    height: 100px;
+}
+
+#experiencias h2 {
+    color: #370a6d;
+    font-size: 25px;
+}
+
+.experiencia h3 {
+    color: rgb(106, 106, 106);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experiencia h4 {
+    color: #370a6d;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.experiencia h5 {
+    color: gray;
+    font-size: 15px;
+}
+
+#formacion h2 {
+    color: #370a6d;
+    font-size: 25px;
+}
+
+#hobbies {
+    background-color: #eee;
+}
+
+#hobbies i {
+    font-size: 80px;
+    color: white;
+}
+
+#hobbies .card {
+    background-color: #370a6d;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#hobbies h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#hobbies li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shadow {
+    background-color: white;
+}   
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+.div-cohete{
+    height: 410px;
+}
+.btn-blanco{
+    color: #370a6d;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.btn-blanco:hover{
+    color: white;
+    background-color: #370a6d;
+}
+#inicio p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+}
+.btn-descarga i{
+    font-size: 20px;
+}
